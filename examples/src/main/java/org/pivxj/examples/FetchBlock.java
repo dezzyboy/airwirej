@@ -15,13 +15,13 @@
  * limitations under the License.
  */
 
-package org.coin2playj.examples;
+package org.airwirej.examples;
 
-import org.coin2playj.core.*;
-import org.coin2playj.params.TestNet3Params;
-import org.coin2playj.store.BlockStore;
-import org.coin2playj.store.MemoryBlockStore;
-import org.coin2playj.utils.BriefLogFormatter;
+import org.airwirej.core.*;
+import org.airwirej.params.TestNet3Params;
+import org.airwirej.store.BlockStore;
+import org.airwirej.store.MemoryBlockStore;
+import org.airwirej.utils.BriefLogFormatter;
 
 import java.net.InetAddress;
 import java.util.concurrent.Future;

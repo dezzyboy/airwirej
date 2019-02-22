@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.coin2playj.examples;
+package org.airwirej.examples;
 
 import java.io.IOException;
 import java.math.BigInteger;
@@ -24,24 +24,24 @@ import java.util.EnumSet;
 
 import static com.google.common.base.Preconditions.checkNotNull;
 
-import org.coin2playj.core.Coin;
-import org.coin2playj.core.ECKey;
-import org.coin2playj.core.NetworkParameters;
-import org.coin2playj.core.ScriptException;
-import org.coin2playj.core.Transaction;
-import org.coin2playj.core.TransactionInput;
-import org.coin2playj.core.TransactionOutput;
-import org.coin2playj.core.Utils;
-import org.coin2playj.crypto.TransactionSignature;
-import org.coin2playj.params.MainNetParams;
-import org.coin2playj.script.Script;
-import org.coin2playj.script.ScriptBuilder;
-import org.coin2playj.script.ScriptChunk;
-import static org.coin2playj.script.ScriptOpCodes.getOpCodeName;
-import org.coin2playj.signers.LocalTransactionSigner;
-import org.coin2playj.signers.TransactionSigner.ProposedTransaction;
-import org.coin2playj.wallet.KeyBag;
-import org.coin2playj.wallet.RedeemData;
+import org.airwirej.core.Coin;
+import org.airwirej.core.ECKey;
+import org.airwirej.core.NetworkParameters;
+import org.airwirej.core.ScriptException;
+import org.airwirej.core.Transaction;
+import org.airwirej.core.TransactionInput;
+import org.airwirej.core.TransactionOutput;
+import org.airwirej.core.Utils;
+import org.airwirej.crypto.TransactionSignature;
+import org.airwirej.params.MainNetParams;
+import org.airwirej.script.Script;
+import org.airwirej.script.ScriptBuilder;
+import org.airwirej.script.ScriptChunk;
+import static org.airwirej.script.ScriptOpCodes.getOpCodeName;
+import org.airwirej.signers.LocalTransactionSigner;
+import org.airwirej.signers.TransactionSigner.ProposedTransaction;
+import org.airwirej.wallet.KeyBag;
+import org.airwirej.wallet.RedeemData;
 
 /**
  * Test case generator for transactions with low-S and high-S signatures, to

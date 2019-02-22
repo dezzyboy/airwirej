@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.coin2playj.core;
+package org.airwirej.core;
 
 import junit.framework.TestCase;
 import org.junit.Test;

@@ -14,18 +14,18 @@
  * limitations under the License.
  */
 
-package org.coin2playj.wallet;
+package org.airwirej.wallet;
 
-import org.coin2playj.core.*;
-import org.coin2playj.params.*;
-import org.coin2playj.testing.*;
+import org.airwirej.core.*;
+import org.airwirej.params.*;
+import org.airwirej.testing.*;
 import org.junit.*;
 
 import java.net.*;
 import java.util.*;
 
 import static com.google.common.base.Preconditions.*;
-import static org.coin2playj.core.Coin.*;
+import static org.airwirej.core.Coin.*;
 import static org.junit.Assert.*;
 
 public class DefaultCoinSelectorTest extends TestWithWallet {

@@ -12,11 +12,11 @@
  * limitations under the License.
  */
 
-package org.coin2playj.core;
+package org.airwirej.core;
 
-import org.coin2playj.store.BlockStoreException;
-import org.coin2playj.store.FullPrunedBlockStore;
-import org.coin2playj.store.H2FullPrunedBlockStore;
+import org.airwirej.store.BlockStoreException;
+import org.airwirej.store.FullPrunedBlockStore;
+import org.airwirej.store.H2FullPrunedBlockStore;
 import org.junit.After;
 
 import java.io.File;

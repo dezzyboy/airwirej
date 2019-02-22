@@ -12,15 +12,15 @@
  * limitations under the License.
  */
 
-package org.coin2playj.examples;
+package org.airwirej.examples;
 
-import org.coin2playj.core.listeners.DownloadProgressTracker;
-import org.coin2playj.core.*;
-import org.coin2playj.net.discovery.DnsDiscovery;
-import org.coin2playj.params.TestNet3Params;
-import org.coin2playj.store.SPVBlockStore;
-import org.coin2playj.wallet.DeterministicSeed;
-import org.coin2playj.wallet.Wallet;
+import org.airwirej.core.listeners.DownloadProgressTracker;
+import org.airwirej.core.*;
+import org.airwirej.net.discovery.DnsDiscovery;
+import org.airwirej.params.TestNet3Params;
+import org.airwirej.store.SPVBlockStore;
+import org.airwirej.wallet.DeterministicSeed;
+import org.airwirej.wallet.Wallet;
 
 import java.io.File;
 

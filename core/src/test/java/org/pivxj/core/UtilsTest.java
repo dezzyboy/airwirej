@@ -15,7 +15,7 @@
  * limitations under the License.
  */
 
-package org.coin2playj.core;
+package org.airwirej.core;
 
 import java.math.BigInteger;
 import java.util.Date;

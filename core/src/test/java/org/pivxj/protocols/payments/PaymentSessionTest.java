@@ -15,12 +15,12 @@
  * limitations under the License.
  */
 
-package org.coin2playj.protocols.payments;
+package org.airwirej.protocols.payments;
 
-import org.coin2playj.core.*;
-import org.coin2playj.crypto.TrustStoreLoader;
-import org.coin2playj.params.MainNetParams;
-import org.coin2playj.params.TestNet3Params;
+import org.airwirej.core.*;
+import org.airwirej.crypto.TrustStoreLoader;
+import org.airwirej.params.MainNetParams;
+import org.airwirej.params.TestNet3Params;
 import com.google.common.util.concurrent.ListenableFuture;
 import com.google.protobuf.ByteString;
 import org.bitcoin.protocols.payments.Protos;
@@ -32,7 +32,7 @@ import java.net.URL;
 import java.util.ArrayList;
 import java.util.Date;
 
-import static org.coin2playj.core.Coin.COIN;
+import static org.airwirej.core.Coin.COIN;
 import static org.junit.Assert.*;
 
 public class PaymentSessionTest {

@@ -15,18 +15,18 @@
  * limitations under the License.
  */
 
-package org.coin2playj.examples;
+package org.airwirej.examples;
 
-import org.coin2playj.core.*;
-import org.coin2playj.crypto.KeyCrypterException;
-import org.coin2playj.kits.WalletAppKit;
-import org.coin2playj.params.MainNetParams;
-import org.coin2playj.params.RegTestParams;
-import org.coin2playj.params.TestNet3Params;
-import org.coin2playj.store.FlatDB;
-import org.coin2playj.utils.BriefLogFormatter;
-import org.coin2playj.wallet.Wallet;
-import org.coin2playj.wallet.listeners.WalletCoinsReceivedEventListener;
+import org.airwirej.core.*;
+import org.airwirej.crypto.KeyCrypterException;
+import org.airwirej.kits.WalletAppKit;
+import org.airwirej.params.MainNetParams;
+import org.airwirej.params.RegTestParams;
+import org.airwirej.params.TestNet3Params;
+import org.airwirej.store.FlatDB;
+import org.airwirej.utils.BriefLogFormatter;
+import org.airwirej.wallet.Wallet;
+import org.airwirej.wallet.listeners.WalletCoinsReceivedEventListener;
 
 import com.google.common.util.concurrent.FutureCallback;
 import com.google.common.util.concurrent.Futures;
@@ -87,7 +87,7 @@ public class ForwardingService {
         kit.wallet().addCoinsReceivedEventListener(new WalletCoinsReceivedEventListener() {
             @Override
             public void onCoinsReceived(Wallet w, Transaction tx, Coin prevBalance, Coin newBalance) {
-                // Runs in the dedicated "user thread" (see coin2playj docs for more info on this).
+                // Runs in the dedicated "user thread" (see airwirej docs for more info on this).
                 //
                 // The transaction "tx" can either be pending, or included into a block (we didn't see the broadcast).
                 Coin value = tx.getValueSentToMe(w);

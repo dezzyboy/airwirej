@@ -1,12 +1,12 @@
-package org.coin2playj.core;
+package org.airwirej.core;
 
 import com.google.common.util.concurrent.ListenableFuture;
-import org.coin2playj.params.MainNetParams;
-import org.coin2playj.params.TestNet2Params;
-import org.coin2playj.store.BlockStore;
-import org.coin2playj.store.MemoryBlockStore;
-import org.coin2playj.utils.BriefLogFormatter;
-import org.coin2playj.wallet.Wallet;
+import org.airwirej.params.MainNetParams;
+import org.airwirej.params.TestNet2Params;
+import org.airwirej.store.BlockStore;
+import org.airwirej.store.MemoryBlockStore;
+import org.airwirej.utils.BriefLogFormatter;
+import org.airwirej.wallet.Wallet;
 import org.junit.*;
 import org.junit.rules.ExpectedException;
 

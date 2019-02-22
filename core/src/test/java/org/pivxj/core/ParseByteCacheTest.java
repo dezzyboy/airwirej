@@ -15,13 +15,13 @@
  * limitations under the License.
  */
 
-package org.coin2playj.core;
+package org.airwirej.core;
 
-import org.coin2playj.params.MainNetParams;
-import org.coin2playj.params.UnitTestParams;
-import org.coin2playj.store.BlockStore;
-import org.coin2playj.store.MemoryBlockStore;
-import org.coin2playj.wallet.Wallet;
+import org.airwirej.params.MainNetParams;
+import org.airwirej.params.UnitTestParams;
+import org.airwirej.store.BlockStore;
+import org.airwirej.store.MemoryBlockStore;
+import org.airwirej.wallet.Wallet;
 import org.junit.Before;
 import org.junit.Test;
 
@@ -29,10 +29,10 @@ import java.io.ByteArrayOutputStream;
 import java.nio.ByteBuffer;
 import java.util.Arrays;
 
-import static org.coin2playj.core.Coin.*;
-import static org.coin2playj.core.Utils.HEX;
-import static org.coin2playj.testing.FakeTxBuilder.createFakeBlock;
-import static org.coin2playj.testing.FakeTxBuilder.createFakeTx;
+import static org.airwirej.core.Coin.*;
+import static org.airwirej.core.Utils.HEX;
+import static org.airwirej.testing.FakeTxBuilder.createFakeBlock;
+import static org.airwirej.testing.FakeTxBuilder.createFakeTx;
 import static org.junit.Assert.*;
 
 public class ParseByteCacheTest {

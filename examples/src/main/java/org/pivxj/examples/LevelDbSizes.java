@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.coin2playj.examples;
+package org.airwirej.examples;
 
 import static org.fusesource.leveldbjni.JniDBFactory.*;
 

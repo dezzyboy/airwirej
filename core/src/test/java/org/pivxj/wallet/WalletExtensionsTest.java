@@ -12,10 +12,10 @@
  * limitations under the License.
  */
 
-package org.coin2playj.wallet;
+package org.airwirej.wallet;
 
-import org.coin2playj.testing.FooWalletExtension;
-import org.coin2playj.testing.TestWithWallet;
+import org.airwirej.testing.FooWalletExtension;
+import org.airwirej.testing.TestWithWallet;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;

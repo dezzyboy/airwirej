@@ -1,7 +1,7 @@
 package org.darkcoinj;
 
-import org.coin2playj.core.Transaction;
-import org.coin2playj.core.TransactionInput;
+import org.airwirej.core.Transaction;
+import org.airwirej.core.TransactionInput;
 
 /**
  * Created by Eric on 2/8/2015.

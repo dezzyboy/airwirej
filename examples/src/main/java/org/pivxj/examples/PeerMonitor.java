@@ -15,16 +15,16 @@
  * limitations under the License.
  */
 
-package org.coin2playj.examples;
+package org.airwirej.examples;
 
-import org.coin2playj.core.listeners.PeerConnectedEventListener;
-import org.coin2playj.core.listeners.PeerDisconnectedEventListener;
-import org.coin2playj.core.NetworkParameters;
-import org.coin2playj.core.Peer;
-import org.coin2playj.core.PeerGroup;
-import org.coin2playj.net.discovery.DnsDiscovery;
-import org.coin2playj.params.MainNetParams;
-import org.coin2playj.utils.BriefLogFormatter;
+import org.airwirej.core.listeners.PeerConnectedEventListener;
+import org.airwirej.core.listeners.PeerDisconnectedEventListener;
+import org.airwirej.core.NetworkParameters;
+import org.airwirej.core.Peer;
+import org.airwirej.core.PeerGroup;
+import org.airwirej.net.discovery.DnsDiscovery;
+import org.airwirej.params.MainNetParams;
+import org.airwirej.utils.BriefLogFormatter;
 import com.google.common.collect.Lists;
 
 import javax.swing.*;

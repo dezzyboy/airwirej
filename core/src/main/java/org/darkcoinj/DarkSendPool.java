@@ -1,9 +1,9 @@
 package org.darkcoinj;
 
-import org.coin2playj.core.*;
-import org.coin2playj.script.Script;
-import org.coin2playj.utils.ContextPropagatingThreadFactory;
-import org.coin2playj.utils.Threading;
+import org.airwirej.core.*;
+import org.airwirej.script.Script;
+import org.airwirej.utils.ContextPropagatingThreadFactory;
+import org.airwirej.utils.Threading;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 

@@ -14,13 +14,13 @@
  * limitations under the License.
  */
 
-package org.coin2playj.testing;
+package org.airwirej.testing;
 
-import org.coin2playj.core.Sha256Hash;
-import org.coin2playj.crypto.ChildNumber;
-import org.coin2playj.crypto.DeterministicKey;
-import org.coin2playj.signers.CustomTransactionSigner;
-import org.coin2playj.wallet.DeterministicKeyChain;
+import org.airwirej.core.Sha256Hash;
+import org.airwirej.crypto.ChildNumber;
+import org.airwirej.crypto.DeterministicKey;
+import org.airwirej.signers.CustomTransactionSigner;
+import org.airwirej.wallet.DeterministicKeyChain;
 import com.google.common.collect.ImmutableList;
 
 import java.util.List;

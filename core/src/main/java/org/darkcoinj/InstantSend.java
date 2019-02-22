@@ -1,15 +1,15 @@
 package org.darkcoinj;
 
 import com.google.common.collect.Lists;
-import org.coin2playj.core.*;
-import org.coin2playj.utils.Threading;
+import org.airwirej.core.*;
+import org.airwirej.utils.Threading;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 import java.util.*;
 import java.util.concurrent.locks.ReentrantLock;
 
-import static org.coin2playj.core.DarkCoinSystem.fMasterNode;
+import static org.airwirej.core.DarkCoinSystem.fMasterNode;
 
 /**
  * Created by Eric on 2/8/2015.

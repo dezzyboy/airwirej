@@ -14,19 +14,19 @@
  * limitations under the License.
  */
 
-package org.coin2playj.wallet;
+package org.airwirej.wallet;
 
-import org.coin2playj.core.BloomFilter;
-import org.coin2playj.core.ECKey;
-import org.coin2playj.core.Utils;
-import org.coin2playj.crypto.KeyCrypter;
-import org.coin2playj.crypto.KeyCrypterException;
-import org.coin2playj.crypto.KeyCrypterScrypt;
-import org.coin2playj.utils.Threading;
+import org.airwirej.core.BloomFilter;
+import org.airwirej.core.ECKey;
+import org.airwirej.core.Utils;
+import org.airwirej.crypto.KeyCrypter;
+import org.airwirej.crypto.KeyCrypterException;
+import org.airwirej.crypto.KeyCrypterScrypt;
+import org.airwirej.utils.Threading;
 import com.google.common.collect.ImmutableList;
 import com.google.common.collect.Lists;
 
-import org.coin2playj.wallet.listeners.AbstractKeyChainEventListener;
+import org.airwirej.wallet.listeners.AbstractKeyChainEventListener;
 import org.junit.Before;
 import org.junit.Test;
 

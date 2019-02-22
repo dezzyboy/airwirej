@@ -14,14 +14,14 @@
  * limitations under the License.
  */
 
-package org.coin2playj.protocols.channels;
+package org.airwirej.protocols.channels;
 
-import org.coin2playj.core.*;
-import org.coin2playj.script.Script;
-import org.coin2playj.script.ScriptBuilder;
-import org.coin2playj.testing.TestWithWallet;
-import org.coin2playj.wallet.SendRequest;
-import org.coin2playj.wallet.Wallet;
+import org.airwirej.core.*;
+import org.airwirej.script.Script;
+import org.airwirej.script.ScriptBuilder;
+import org.airwirej.testing.TestWithWallet;
+import org.airwirej.wallet.SendRequest;
+import org.airwirej.wallet.Wallet;
 
 import com.google.common.collect.Lists;
 import com.google.common.util.concurrent.ListenableFuture;
@@ -40,9 +40,9 @@ import java.util.concurrent.BlockingQueue;
 import java.util.concurrent.ExecutionException;
 import java.util.concurrent.LinkedBlockingQueue;
 
-import static org.coin2playj.core.Coin.*;
-import static org.coin2playj.testing.FakeTxBuilder.createFakeTx;
-import static org.coin2playj.testing.FakeTxBuilder.makeSolvedTestBlock;
+import static org.airwirej.core.Coin.*;
+import static org.airwirej.testing.FakeTxBuilder.createFakeTx;
+import static org.airwirej.testing.FakeTxBuilder.makeSolvedTestBlock;
 import static org.junit.Assert.*;
 
 @RunWith(Parameterized.class)

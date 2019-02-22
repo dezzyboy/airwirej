@@ -1,6 +1,6 @@
 package com.hashengineering.crypto;
 
-import org.coin2playj.core.Sha256Hash;
+import org.airwirej.core.Sha256Hash;
 import com.hashengineering.crypto.*;
 import fr.cryptohash.*;
 import java.util.Arrays;

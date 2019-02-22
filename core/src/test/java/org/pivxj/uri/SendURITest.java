@@ -14,17 +14,17 @@
  * limitations under the License.
  */
 
-package org.coin2playj.uri;
+package org.airwirej.uri;
 
-import org.coin2playj.core.Address;
-import org.coin2playj.params.MainNetParams;
-import org.coin2playj.params.TestNet3Params;
+import org.airwirej.core.Address;
+import org.airwirej.params.MainNetParams;
+import org.airwirej.params.TestNet3Params;
 import com.google.common.collect.ImmutableList;
 import org.junit.Test;
-import org.coin2playj.core.CoinDefinition;
+import org.airwirej.core.CoinDefinition;
 
-import static org.coin2playj.core.Coin.*;
-import org.coin2playj.core.NetworkParameters;
+import static org.airwirej.core.Coin.*;
+import org.airwirej.core.NetworkParameters;
 import static org.junit.Assert.*;
 
 public class SendURITest {

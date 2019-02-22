@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package org.coin2playj.utils;
+package org.airwirej.utils;
 
-import static org.coin2playj.utils.Fiat.parseFiat;
+import static org.airwirej.utils.Fiat.parseFiat;
 import static org.junit.Assert.assertEquals;
 
 import org.junit.Test;

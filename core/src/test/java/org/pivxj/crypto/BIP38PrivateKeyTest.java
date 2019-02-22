@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package org.coin2playj.crypto;
+package org.airwirej.crypto;
 
-import org.coin2playj.core.ECKey;
-import org.coin2playj.crypto.BIP38PrivateKey.BadPassphraseException;
-import org.coin2playj.params.MainNetParams;
-import org.coin2playj.params.TestNet3Params;
+import org.airwirej.core.ECKey;
+import org.airwirej.crypto.BIP38PrivateKey.BadPassphraseException;
+import org.airwirej.params.MainNetParams;
+import org.airwirej.params.TestNet3Params;
 import org.junit.Test;
 
 import java.io.ByteArrayInputStream;

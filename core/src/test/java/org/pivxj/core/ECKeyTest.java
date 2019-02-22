@@ -15,25 +15,25 @@
  * limitations under the License.
  */
 
-package org.coin2playj.core;
+package org.airwirej.core;
 
-import org.coin2playj.core.ECKey.ECDSASignature;
-import org.coin2playj.crypto.EncryptedData;
-import org.coin2playj.crypto.KeyCrypter;
-import org.coin2playj.crypto.KeyCrypterScrypt;
-import org.coin2playj.crypto.TransactionSignature;
-import org.coin2playj.params.MainNetParams;
-import org.coin2playj.params.TestNet3Params;
-import org.coin2playj.params.UnitTestParams;
-import org.coin2playj.utils.BriefLogFormatter;
+import org.airwirej.core.ECKey.ECDSASignature;
+import org.airwirej.crypto.EncryptedData;
+import org.airwirej.crypto.KeyCrypter;
+import org.airwirej.crypto.KeyCrypterScrypt;
+import org.airwirej.crypto.TransactionSignature;
+import org.airwirej.params.MainNetParams;
+import org.airwirej.params.TestNet3Params;
+import org.airwirej.params.UnitTestParams;
+import org.airwirej.utils.BriefLogFormatter;
 import com.google.common.collect.Lists;
 import com.google.common.util.concurrent.Futures;
 import com.google.common.util.concurrent.ListenableFuture;
 import com.google.common.util.concurrent.ListeningExecutorService;
 import com.google.common.util.concurrent.MoreExecutors;
 import com.google.protobuf.ByteString;
-import org.coin2playj.wallet.Protos;
-import org.coin2playj.wallet.Protos.ScryptParameters;
+import org.airwirej.wallet.Protos;
+import org.airwirej.wallet.Protos.ScryptParameters;
 import org.junit.Before;
 import org.junit.Test;
 import org.slf4j.Logger;
@@ -50,8 +50,8 @@ import java.util.Random;
 import java.util.concurrent.Callable;
 import java.util.concurrent.Executors;
 
-import static org.coin2playj.core.Utils.HEX;
-import static org.coin2playj.core.Utils.reverseBytes;
+import static org.airwirej.core.Utils.HEX;
+import static org.airwirej.core.Utils.reverseBytes;
 import static com.google.common.base.Preconditions.checkNotNull;
 import static org.junit.Assert.*;
 

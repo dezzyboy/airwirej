@@ -15,9 +15,9 @@
  * limitations under the License.
  */
 
-package org.coin2playj.net;
+package org.airwirej.net;
 
-import org.coin2playj.core.Utils;
+import org.airwirej.core.Utils;
 import com.google.common.util.concurrent.SettableFuture;
 import com.google.protobuf.ByteString;
 import org.bitcoin.paymentchannel.Protos;

@@ -12,11 +12,11 @@
  * limitations under the License.
  */
 
-package org.coin2playj.core;
+package org.airwirej.core;
 
-import org.coin2playj.store.BlockStoreException;
-import org.coin2playj.store.FullPrunedBlockStore;
-import org.coin2playj.store.PostgresFullPrunedBlockStore;
+import org.airwirej.store.BlockStoreException;
+import org.airwirej.store.FullPrunedBlockStore;
+import org.airwirej.store.PostgresFullPrunedBlockStore;
 import org.junit.After;
 import org.junit.Ignore;
 import org.junit.Test;
@@ -28,7 +28,7 @@ import org.junit.Test;
 public class PostgresFullPrunedBlockChainTest extends AbstractFullPrunedBlockChainTest
 {
     // Replace these with your postgres location/credentials and remove @Ignore to test
-    // You can set up a fresh postgres with the command: create user coin2playj superuser password 'password';
+    // You can set up a fresh postgres with the command: create user airwirej superuser password 'password';
     private static final String DB_HOSTNAME = "localhost";
     private static final String DB_NAME = CoinDefinition.coinName.toLowerCase() + "j_test";
     private static final String DB_USERNAME = CoinDefinition.coinName.toLowerCase() +"j";

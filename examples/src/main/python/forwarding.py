@@ -16,11 +16,11 @@ my_address_text = "mzEjmna15T7DXj4HC9MBEG2UJzgFfEYtFo"
 # if it has a confirmed balance in it, then you can set it to 0.
 confirm_wait = 1
 
-from org.coin2playj.core import *
+from org.airwirej.core import *
 
-import org.coin2playj.crypto.KeyCrypterException
-import org.coin2playj.params.MainNetParams
-from org.coin2playj.kits import WalletAppKit
+import org.airwirej.crypto.KeyCrypterException
+import org.airwirej.params.MainNetParams
+from org.airwirej.kits import WalletAppKit
 
 from com.google.common.util.concurrent import FutureCallback
 from com.google.common.util.concurrent import Futures
@@ -73,7 +73,7 @@ class SenderListener(AbstractWalletEventListener):
         Futures.addCallback(tx.getConfidence().getDepthFuture(confirm_wait), myFutureCallback())
 
 if __name__ == "__main__":
-    params = org.coin2playj.params.TestNet3Params.get()
+    params = org.airwirej.params.TestNet3Params.get()
     my_address = Address(params,my_address_text)
     filePrefix = "forwarding-service-testnet"
     f = java.io.File(".")

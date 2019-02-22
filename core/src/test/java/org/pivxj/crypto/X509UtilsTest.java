@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.coin2playj.crypto;
+package org.airwirej.crypto;
 
 import org.junit.Test;
 

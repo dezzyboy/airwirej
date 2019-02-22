@@ -15,20 +15,20 @@
  * limitations under the License.
  */
 
-package org.coin2playj.examples;
+package org.airwirej.examples;
 
 import joptsimple.OptionParser;
 import joptsimple.OptionSet;
 import joptsimple.OptionSpec;
-import org.coin2playj.core.Coin;
-import org.coin2playj.core.NetworkParameters;
-import org.coin2playj.core.Sha256Hash;
-import org.coin2playj.core.VerificationException;
-import org.coin2playj.kits.WalletAppKit;
-import org.coin2playj.params.RegTestParams;
-import org.coin2playj.protocols.channels.*;
-import org.coin2playj.utils.BriefLogFormatter;
-import org.coin2playj.wallet.WalletExtension;
+import org.airwirej.core.Coin;
+import org.airwirej.core.NetworkParameters;
+import org.airwirej.core.Sha256Hash;
+import org.airwirej.core.VerificationException;
+import org.airwirej.kits.WalletAppKit;
+import org.airwirej.params.RegTestParams;
+import org.airwirej.protocols.channels.*;
+import org.airwirej.utils.BriefLogFormatter;
+import org.airwirej.wallet.WalletExtension;
 
 import com.google.common.collect.ImmutableList;
 

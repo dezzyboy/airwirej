@@ -1,6 +1,6 @@
 package org.darkcoinj;
 
-import org.coin2playj.core.MasterNodePaymentWinner;
+import org.airwirej.core.MasterNodePaymentWinner;
 
 import java.util.ArrayList;
 

@@ -12,7 +12,7 @@
  * limitations under the License.
  */
 
-package org.coin2playj.utils;
+package org.airwirej.utils;
 
 import com.google.protobuf.ByteString;
 import org.junit.Before;

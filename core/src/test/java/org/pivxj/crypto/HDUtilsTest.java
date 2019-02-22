@@ -15,13 +15,13 @@
  * limitations under the License.
  */
 
-package org.coin2playj.crypto;
+package org.airwirej.crypto;
 
 import com.google.common.collect.ImmutableList;
 import org.junit.Assert;
 import org.junit.Test;
 
-import static org.coin2playj.core.Utils.HEX;
+import static org.airwirej.core.Utils.HEX;
 import java.util.List;
 
 public class HDUtilsTest {

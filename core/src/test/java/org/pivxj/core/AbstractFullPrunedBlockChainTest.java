@@ -15,19 +15,19 @@
  * limitations under the License.
  */
 
-package org.coin2playj.core;
+package org.airwirej.core;
 
 import com.google.common.collect.Lists;
-import org.coin2playj.params.MainNetParams;
-import org.coin2playj.params.UnitTestParams;
-import org.coin2playj.script.Script;
-import org.coin2playj.store.BlockStoreException;
-import org.coin2playj.store.FullPrunedBlockStore;
-import org.coin2playj.utils.BlockFileLoader;
-import org.coin2playj.utils.BriefLogFormatter;
-import org.coin2playj.wallet.SendRequest;
-import org.coin2playj.wallet.Wallet;
-import org.coin2playj.wallet.WalletTransaction;
+import org.airwirej.params.MainNetParams;
+import org.airwirej.params.UnitTestParams;
+import org.airwirej.script.Script;
+import org.airwirej.store.BlockStoreException;
+import org.airwirej.store.FullPrunedBlockStore;
+import org.airwirej.utils.BlockFileLoader;
+import org.airwirej.utils.BriefLogFormatter;
+import org.airwirej.wallet.SendRequest;
+import org.airwirej.wallet.Wallet;
+import org.airwirej.wallet.WalletTransaction;
 import org.junit.Before;
 import org.junit.Test;
 import org.slf4j.Logger;
@@ -38,7 +38,7 @@ import java.lang.ref.WeakReference;
 import java.util.Arrays;
 import java.util.List;
 
-import static org.coin2playj.core.Coin.FIFTY_COINS;
+import static org.airwirej.core.Coin.FIFTY_COINS;
 import static org.junit.Assert.*;
 import org.junit.rules.ExpectedException;
 

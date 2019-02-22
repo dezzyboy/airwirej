@@ -12,10 +12,10 @@
  * limitations under the License.
  */
 
-package org.coin2playj.store;
+package org.airwirej.store;
 
-import org.coin2playj.core.*;
-import org.coin2playj.params.*;
+import org.airwirej.core.*;
+import org.airwirej.params.*;
 import org.junit.*;
 
 import java.io.*;

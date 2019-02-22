@@ -17,8 +17,8 @@
 package com.hashengineering.crypto;
 
 import com.google.common.io.ByteStreams;
-import org.coin2playj.core.Sha256Hash;
-import org.coin2playj.core.Utils;
+import org.airwirej.core.Sha256Hash;
+import org.airwirej.core.Utils;
 import org.spongycastle.util.encoders.Hex;
 
 import java.io.File;

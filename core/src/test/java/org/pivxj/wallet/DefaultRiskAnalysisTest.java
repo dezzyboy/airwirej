@@ -15,21 +15,21 @@
  * limitations under the License.
  */
 
-package org.coin2playj.wallet;
+package org.airwirej.wallet;
 
 import com.google.common.collect.*;
-import org.coin2playj.core.*;
-import org.coin2playj.crypto.*;
-import org.coin2playj.params.*;
-import org.coin2playj.script.*;
-import org.coin2playj.testing.FakeTxBuilder;
-import org.coin2playj.wallet.DefaultRiskAnalysis.*;
+import org.airwirej.core.*;
+import org.airwirej.crypto.*;
+import org.airwirej.params.*;
+import org.airwirej.script.*;
+import org.airwirej.testing.FakeTxBuilder;
+import org.airwirej.wallet.DefaultRiskAnalysis.*;
 import org.junit.*;
 
 import java.util.*;
 
-import static org.coin2playj.core.Coin.*;
-import static org.coin2playj.script.ScriptOpCodes.*;
+import static org.airwirej.core.Coin.*;
+import static org.airwirej.script.ScriptOpCodes.*;
 import static org.junit.Assert.*;
 
 public class DefaultRiskAnalysisTest {

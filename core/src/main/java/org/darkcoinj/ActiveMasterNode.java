@@ -1,6 +1,6 @@
 package org.darkcoinj;
 
-import org.coin2playj.core.*;
+import org.airwirej.core.*;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 

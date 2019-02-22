@@ -14,10 +14,10 @@
 
 package wallettemplate.utils;
 
-import org.coin2playj.core.listeners.DownloadProgressTracker;
-import org.coin2playj.wallet.Wallet;
-import org.coin2playj.wallet.listeners.WalletChangeEventListener;
-import org.coin2playj.core.*;
+import org.airwirej.core.listeners.DownloadProgressTracker;
+import org.airwirej.wallet.Wallet;
+import org.airwirej.wallet.listeners.WalletChangeEventListener;
+import org.airwirej.core.*;
 import javafx.application.Platform;
 import javafx.beans.property.ReadOnlyDoubleProperty;
 import javafx.beans.property.ReadOnlyObjectProperty;

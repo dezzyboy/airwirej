@@ -4,8 +4,8 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <parent>
-        <groupId>org.coin2playj</groupId>
-        <artifactId>coin2playj-parent</artifactId>
+        <groupId>org.airwirej</groupId>
+        <artifactId>airwirej-parent</artifactId>
         <version>0.14.3-12.1</version>
     </parent>
 

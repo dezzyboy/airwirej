@@ -15,15 +15,15 @@
  * limitations under the License.
  */
 
-package org.coin2playj.crypto;
+package org.airwirej.crypto;
 
-import org.coin2playj.core.*;
-import org.coin2playj.params.*;
-import org.coin2playj.wallet.DeterministicKeyChain;
+import org.airwirej.core.*;
+import org.airwirej.params.*;
+import org.airwirej.wallet.DeterministicKeyChain;
 import org.junit.*;
 import org.spongycastle.crypto.params.*;
 
-import static org.coin2playj.core.Utils.*;
+import static org.airwirej.core.Utils.*;
 import static org.junit.Assert.*;
 
 /**

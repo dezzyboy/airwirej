@@ -14,17 +14,17 @@
  * limitations under the License.
  */
 
-package org.coin2playj.protocols.payments;
+package org.airwirej.protocols.payments;
 
-import org.coin2playj.core.*;
-import org.coin2playj.crypto.X509Utils;
-import org.coin2playj.params.TestNet3Params;
-import org.coin2playj.params.UnitTestParams;
-import org.coin2playj.protocols.payments.PaymentProtocol.Output;
-import org.coin2playj.protocols.payments.PaymentProtocol.PkiVerificationData;
-import org.coin2playj.protocols.payments.PaymentProtocolException.PkiVerificationException;
-import org.coin2playj.script.ScriptBuilder;
-import org.coin2playj.testing.FakeTxBuilder;
+import org.airwirej.core.*;
+import org.airwirej.crypto.X509Utils;
+import org.airwirej.params.TestNet3Params;
+import org.airwirej.params.UnitTestParams;
+import org.airwirej.protocols.payments.PaymentProtocol.Output;
+import org.airwirej.protocols.payments.PaymentProtocol.PkiVerificationData;
+import org.airwirej.protocols.payments.PaymentProtocolException.PkiVerificationException;
+import org.airwirej.script.ScriptBuilder;
+import org.airwirej.testing.FakeTxBuilder;
 import org.bitcoin.protocols.payments.Protos;
 import org.bitcoin.protocols.payments.Protos.Payment;
 import org.bitcoin.protocols.payments.Protos.PaymentACK;

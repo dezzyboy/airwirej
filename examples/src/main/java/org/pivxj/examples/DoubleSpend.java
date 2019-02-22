@@ -12,19 +12,19 @@
  * limitations under the License.
  */
 
-package org.coin2playj.examples;
+package org.airwirej.examples;
 
-import org.coin2playj.core.listeners.PreMessageReceivedEventListener;
-import org.coin2playj.core.*;
-import org.coin2playj.kits.WalletAppKit;
-import org.coin2playj.params.RegTestParams;
-import org.coin2playj.utils.BriefLogFormatter;
-import org.coin2playj.utils.Threading;
-import org.coin2playj.wallet.Wallet;
+import org.airwirej.core.listeners.PreMessageReceivedEventListener;
+import org.airwirej.core.*;
+import org.airwirej.kits.WalletAppKit;
+import org.airwirej.params.RegTestParams;
+import org.airwirej.utils.BriefLogFormatter;
+import org.airwirej.utils.Threading;
+import org.airwirej.wallet.Wallet;
 
 import java.io.File;
 
-import static org.coin2playj.core.Coin.*;
+import static org.airwirej.core.Coin.*;
 
 /**
  * This is a little test app that waits for a coin on a local regtest node, then  generates two transactions that double

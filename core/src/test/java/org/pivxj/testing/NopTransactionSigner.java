@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package org.coin2playj.testing;
+package org.airwirej.testing;
 
-import org.coin2playj.signers.TransactionSigner;
-import org.coin2playj.wallet.KeyBag;
+import org.airwirej.signers.TransactionSigner;
+import org.airwirej.wallet.KeyBag;
 
 public class NopTransactionSigner implements TransactionSigner {
     private boolean isReady;

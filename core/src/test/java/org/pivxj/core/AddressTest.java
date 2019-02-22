@@ -15,13 +15,13 @@
  * limitations under the License.
  */
 
-package org.coin2playj.core;
+package org.airwirej.core;
 
-import org.coin2playj.params.MainNetParams;
-import org.coin2playj.params.Networks;
-import org.coin2playj.params.TestNet3Params;
-import org.coin2playj.script.Script;
-import org.coin2playj.script.ScriptBuilder;
+import org.airwirej.params.MainNetParams;
+import org.airwirej.params.Networks;
+import org.airwirej.params.TestNet3Params;
+import org.airwirej.script.Script;
+import org.airwirej.script.ScriptBuilder;
 import org.junit.Test;
 
 import java.io.ByteArrayInputStream;
@@ -31,7 +31,7 @@ import java.io.ObjectOutputStream;
 import java.util.Arrays;
 import java.util.List;
 
-import static org.coin2playj.core.Utils.HEX;
+import static org.airwirej.core.Utils.HEX;
 import static org.junit.Assert.*;
 
 public class AddressTest {

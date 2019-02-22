@@ -1,7 +1,7 @@
 package org.darkcoinj;
 
-import org.coin2playj.core.DarkSendQueue;
-import org.coin2playj.core.Sha256Hash;
+import org.airwirej.core.DarkSendQueue;
+import org.airwirej.core.Sha256Hash;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 

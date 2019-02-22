@@ -12,12 +12,12 @@
  * limitations under the License.
  */
 
-package org.coin2playj.protocols.channels;
+package org.airwirej.protocols.channels;
 
-import org.coin2playj.core.Coin;
-import org.coin2playj.core.TransactionBroadcaster;
-import org.coin2playj.core.Utils;
-import org.coin2playj.wallet.Wallet;
+import org.airwirej.core.Coin;
+import org.airwirej.core.TransactionBroadcaster;
+import org.airwirej.core.Utils;
+import org.airwirej.wallet.Wallet;
 import org.bitcoin.paymentchannel.Protos;
 import org.easymock.Capture;
 import org.junit.Before;

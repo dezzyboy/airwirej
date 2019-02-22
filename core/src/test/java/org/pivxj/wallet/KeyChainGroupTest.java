@@ -14,14 +14,14 @@
  * limitations under the License.
  */
 
-package org.coin2playj.wallet;
+package org.airwirej.wallet;
 
-import org.coin2playj.core.*;
-import org.coin2playj.crypto.*;
-import org.coin2playj.params.MainNetParams;
-import org.coin2playj.utils.BriefLogFormatter;
-import org.coin2playj.utils.Threading;
-import org.coin2playj.wallet.listeners.KeyChainEventListener;
+import org.airwirej.core.*;
+import org.airwirej.crypto.*;
+import org.airwirej.params.MainNetParams;
+import org.airwirej.utils.BriefLogFormatter;
+import org.airwirej.utils.Threading;
+import org.airwirej.wallet.listeners.KeyChainEventListener;
 
 import com.google.common.collect.ImmutableList;
 import org.junit.Before;

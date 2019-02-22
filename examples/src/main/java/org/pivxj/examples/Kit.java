@@ -12,26 +12,26 @@
  * limitations under the License.
  */
 
-package org.coin2playj.examples;
+package org.airwirej.examples;
 
-import org.coin2playj.core.*;
-import org.coin2playj.kits.WalletAppKit;
-import org.coin2playj.params.TestNet3Params;
-import org.coin2playj.script.Script;
-import org.coin2playj.wallet.Wallet;
-import org.coin2playj.wallet.listeners.KeyChainEventListener;
-import org.coin2playj.wallet.listeners.ScriptsChangeEventListener;
-import org.coin2playj.wallet.listeners.WalletCoinsReceivedEventListener;
-import org.coin2playj.wallet.listeners.WalletCoinsSentEventListener;
+import org.airwirej.core.*;
+import org.airwirej.kits.WalletAppKit;
+import org.airwirej.params.TestNet3Params;
+import org.airwirej.script.Script;
+import org.airwirej.wallet.Wallet;
+import org.airwirej.wallet.listeners.KeyChainEventListener;
+import org.airwirej.wallet.listeners.ScriptsChangeEventListener;
+import org.airwirej.wallet.listeners.WalletCoinsReceivedEventListener;
+import org.airwirej.wallet.listeners.WalletCoinsSentEventListener;
 
 import java.io.File;
 import java.util.List;
 
-import org.coin2playj.core.listeners.TransactionConfidenceEventListener;
+import org.airwirej.core.listeners.TransactionConfidenceEventListener;
 
 /**
- * The following example shows how to use the by coin2playj provided WalletAppKit.
- * The WalletAppKit class wraps the boilerplate (Peers, BlockChain, BlockStorage, Wallet) needed to set up a new SPV coin2playj app.
+ * The following example shows how to use the by airwirej provided WalletAppKit.
+ * The WalletAppKit class wraps the boilerplate (Peers, BlockChain, BlockStorage, Wallet) needed to set up a new SPV airwirej app.
  * 
  * In this example we also define a WalletEventListener class with implementors that are called when the wallet changes (for example sending/receiving money)
  */
@@ -59,7 +59,7 @@ public class Kit {
         //kit.connectToLocalHost();
 
         // Now we start the kit and sync the blockchain.
-        // coin2playj is working a lot with the Google Guava libraries. The WalletAppKit extends the AbstractIdleService. Have a look at the introduction to Guava services: https://github.com/google/guava/wiki/ServiceExplained
+        // airwirej is working a lot with the Google Guava libraries. The WalletAppKit extends the AbstractIdleService. Have a look at the introduction to Guava services: https://github.com/google/guava/wiki/ServiceExplained
         kit.startAsync();
         kit.awaitRunning();
 

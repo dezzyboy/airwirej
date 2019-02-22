@@ -14,19 +14,19 @@
  * limitations under the License.
  */
 
-package org.coin2playj.examples;
+package org.airwirej.examples;
 
-import org.coin2playj.core.listeners.PeerConnectedEventListener;
-import org.coin2playj.core.listeners.PeerDisconnectedEventListener;
-import org.coin2playj.core.NetworkParameters;
-import org.coin2playj.core.Peer;
-import org.coin2playj.core.PeerAddress;
-import org.coin2playj.core.VersionMessage;
-import org.coin2playj.net.discovery.DnsDiscovery;
-import org.coin2playj.net.discovery.PeerDiscoveryException;
-import org.coin2playj.net.NioClientManager;
-import org.coin2playj.params.MainNetParams;
-import org.coin2playj.utils.BriefLogFormatter;
+import org.airwirej.core.listeners.PeerConnectedEventListener;
+import org.airwirej.core.listeners.PeerDisconnectedEventListener;
+import org.airwirej.core.NetworkParameters;
+import org.airwirej.core.Peer;
+import org.airwirej.core.PeerAddress;
+import org.airwirej.core.VersionMessage;
+import org.airwirej.net.discovery.DnsDiscovery;
+import org.airwirej.net.discovery.PeerDiscoveryException;
+import org.airwirej.net.NioClientManager;
+import org.airwirej.params.MainNetParams;
+import org.airwirej.utils.BriefLogFormatter;
 import com.google.common.collect.Lists;
 import com.google.common.util.concurrent.Futures;
 import com.google.common.util.concurrent.ListenableFuture;

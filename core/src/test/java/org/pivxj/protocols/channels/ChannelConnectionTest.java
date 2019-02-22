@@ -14,15 +14,15 @@
  * limitations under the License.
  */
 
-package org.coin2playj.protocols.channels;
+package org.airwirej.protocols.channels;
 
-import org.coin2playj.core.*;
-import org.coin2playj.testing.TestWithWallet;
-import org.coin2playj.utils.Threading;
-import org.coin2playj.wallet.Wallet;
-import org.coin2playj.wallet.WalletExtension;
-import org.coin2playj.wallet.WalletFiles;
-import org.coin2playj.wallet.WalletProtobufSerializer;
+import org.airwirej.core.*;
+import org.airwirej.testing.TestWithWallet;
+import org.airwirej.utils.Threading;
+import org.airwirej.wallet.Wallet;
+import org.airwirej.wallet.WalletExtension;
+import org.airwirej.wallet.WalletFiles;
+import org.airwirej.wallet.WalletProtobufSerializer;
 
 import com.google.common.util.concurrent.Futures;
 import com.google.common.util.concurrent.ListenableFuture;
@@ -47,9 +47,9 @@ import java.util.Collection;
 import java.util.concurrent.*;
 import java.util.concurrent.atomic.AtomicBoolean;
 
-import static org.coin2playj.core.Coin.*;
-import static org.coin2playj.protocols.channels.PaymentChannelCloseException.CloseReason;
-import static org.coin2playj.testing.FakeTxBuilder.createFakeBlock;
+import static org.airwirej.core.Coin.*;
+import static org.airwirej.protocols.channels.PaymentChannelCloseException.CloseReason;
+import static org.airwirej.testing.FakeTxBuilder.createFakeBlock;
 import static org.bitcoin.paymentchannel.Protos.TwoWayChannelMessage.MessageType;
 import static org.junit.Assert.*;
 
@@ -560,7 +560,7 @@ public class ChannelConnectionTest extends TestWithWallet {
     private static Wallet roundTripClientWallet(Wallet wallet) throws Exception {
         ByteArrayOutputStream bos = new ByteArrayOutputStream();
         new WalletProtobufSerializer().writeWallet(wallet, bos);
-        org.coin2playj.wallet.Protos.Wallet proto = WalletProtobufSerializer.parseToProto(new ByteArrayInputStream(bos.toByteArray()));
+        org.airwirej.wallet.Protos.Wallet proto = WalletProtobufSerializer.parseToProto(new ByteArrayInputStream(bos.toByteArray()));
         StoredPaymentChannelClientStates state = new StoredPaymentChannelClientStates(null, failBroadcaster);
         return new WalletProtobufSerializer().readWallet(wallet.getParams(), new WalletExtension[] { state }, proto);
     }
@@ -569,7 +569,7 @@ public class ChannelConnectionTest extends TestWithWallet {
         ByteArrayOutputStream bos = new ByteArrayOutputStream();
         new WalletProtobufSerializer().writeWallet(wallet, bos);
         StoredPaymentChannelServerStates state = new StoredPaymentChannelServerStates(null, failBroadcaster);
-        org.coin2playj.wallet.Protos.Wallet proto = WalletProtobufSerializer.parseToProto(new ByteArrayInputStream(bos.toByteArray()));
+        org.airwirej.wallet.Protos.Wallet proto = WalletProtobufSerializer.parseToProto(new ByteArrayInputStream(bos.toByteArray()));
         return new WalletProtobufSerializer().readWallet(wallet.getParams(), new WalletExtension[] { state }, proto);
     }
 

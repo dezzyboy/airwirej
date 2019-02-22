@@ -15,17 +15,17 @@
  * limitations under the License.
  */
 
-package org.coin2playj.core;
+package org.airwirej.core;
 
-import org.coin2playj.params.MainNetParams;
-import org.coin2playj.params.TestNet2Params;
-import org.coin2playj.params.UnitTestParams;
-import org.coin2playj.store.BlockStore;
-import org.coin2playj.store.MemoryBlockStore;
-import org.coin2playj.testing.FakeTxBuilder;
-import org.coin2playj.utils.BriefLogFormatter;
-import org.coin2playj.wallet.Wallet;
-import org.coin2playj.wallet.Wallet.BalanceType;
+import org.airwirej.params.MainNetParams;
+import org.airwirej.params.TestNet2Params;
+import org.airwirej.params.UnitTestParams;
+import org.airwirej.store.BlockStore;
+import org.airwirej.store.MemoryBlockStore;
+import org.airwirej.testing.FakeTxBuilder;
+import org.airwirej.utils.BriefLogFormatter;
+import org.airwirej.wallet.Wallet;
+import org.airwirej.wallet.Wallet.BalanceType;
 
 import com.google.common.util.concurrent.ListenableFuture;
 import org.junit.rules.ExpectedException;
@@ -38,9 +38,9 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.Locale;
 
-import static org.coin2playj.core.Coin.*;
-import static org.coin2playj.testing.FakeTxBuilder.createFakeBlock;
-import static org.coin2playj.testing.FakeTxBuilder.createFakeTx;
+import static org.airwirej.core.Coin.*;
+import static org.airwirej.testing.FakeTxBuilder.createFakeBlock;
+import static org.airwirej.testing.FakeTxBuilder.createFakeTx;
 import static org.junit.Assert.*;
 
 // Handling of chain splits/reorgs are in ChainSplitTests.

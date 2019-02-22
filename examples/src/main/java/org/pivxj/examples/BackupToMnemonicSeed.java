@@ -12,13 +12,13 @@
  * limitations under the License.
  */
 
-package org.coin2playj.examples;
+package org.airwirej.examples;
 
-import org.coin2playj.core.NetworkParameters;
-import org.coin2playj.core.Utils;
-import org.coin2playj.params.TestNet3Params;
-import org.coin2playj.wallet.DeterministicSeed;
-import org.coin2playj.wallet.Wallet;
+import org.airwirej.core.NetworkParameters;
+import org.airwirej.core.Utils;
+import org.airwirej.params.TestNet3Params;
+import org.airwirej.wallet.DeterministicSeed;
+import org.airwirej.wallet.Wallet;
 
 /**
  * The following example shows you how to create a deterministic seed from a hierarchical deterministic wallet represented as a mnemonic code.

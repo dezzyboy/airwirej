@@ -1,6 +1,6 @@
-### Welcome to coin2playj
+### Welcome to airwirej
 
-The coin2playj library is a Java implementation of the PIVX protocol, which allows it to maintain a wallet and send/receive transactions without needing a local copy of PIVX Core. It comes with full documentation and some example apps showing how to use it.
+The airwirej library is a Java implementation of the PIVX protocol, which allows it to maintain a wallet and send/receive transactions without needing a local copy of PIVX Core. It comes with full documentation and some example apps showing how to use it.
 
 ### Technologies
 
@@ -43,7 +43,7 @@ If you send coins to that address, it will forward them on to the address you sp
 
 ```
   cd examples
-  mvn exec:java -Dexec.mainClass=org.coin2playj.examples.ForwardingService -Dexec.args="<insert a send address here>"
+  mvn exec:java -Dexec.mainClass=org.airwirej.examples.ForwardingService -Dexec.args="<insert a send address here>"
 
 ```
 

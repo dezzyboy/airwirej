@@ -15,12 +15,12 @@
  * limitations under the License.
  */
 
-package org.coin2playj.examples;
+package org.airwirej.examples;
 
-import org.coin2playj.core.NetworkParameters;
-import org.coin2playj.params.MainNetParams;
-import org.coin2playj.params.RegTestParams;
-import org.coin2playj.params.TestNet3Params;
+import org.airwirej.core.NetworkParameters;
+import org.airwirej.params.MainNetParams;
+import org.airwirej.params.RegTestParams;
+import org.airwirej.params.TestNet3Params;
 
 public enum NetworkEnum {
     MAIN,

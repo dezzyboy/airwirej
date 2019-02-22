@@ -14,9 +14,9 @@
 
 package wallettemplate;
 
-import org.coin2playj.core.Utils;
-import org.coin2playj.crypto.MnemonicCode;
-import org.coin2playj.wallet.DeterministicSeed;
+import org.airwirej.core.Utils;
+import org.airwirej.crypto.MnemonicCode;
+import org.airwirej.wallet.DeterministicSeed;
 import com.google.common.base.Splitter;
 import com.google.common.util.concurrent.Service;
 import javafx.application.Platform;
@@ -168,7 +168,7 @@ public class WalletSettingsController {
 
         long birthday = datePicker.getValue().atStartOfDay().toEpochSecond(ZoneOffset.UTC);
         DeterministicSeed seed = new DeterministicSeed(Splitter.on(' ').splitToList(wordsArea.getText()), null, "", birthday);
-        // Shut down coin2playj and restart it with the new seed.
+        // Shut down airwirej and restart it with the new seed.
         Main.bitcoin.addListener(new Service.Listener() {
             @Override
             public void terminated(Service.State from) {

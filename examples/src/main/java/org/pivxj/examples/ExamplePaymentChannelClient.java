@@ -15,22 +15,22 @@
  * limitations under the License.
  */
 
-package org.coin2playj.examples;
+package org.airwirej.examples;
 
 import joptsimple.OptionParser;
 import joptsimple.OptionSet;
 import joptsimple.OptionSpec;
-import org.coin2playj.core.*;
-import org.coin2playj.kits.WalletAppKit;
-import org.coin2playj.params.RegTestParams;
-import org.coin2playj.protocols.channels.PaymentChannelClient;
-import org.coin2playj.protocols.channels.PaymentChannelClientConnection;
-import org.coin2playj.protocols.channels.StoredPaymentChannelClientStates;
-import org.coin2playj.protocols.channels.ValueOutOfRangeException;
-import org.coin2playj.utils.BriefLogFormatter;
-import org.coin2playj.utils.Threading;
-import org.coin2playj.wallet.Wallet;
-import org.coin2playj.wallet.WalletExtension;
+import org.airwirej.core.*;
+import org.airwirej.kits.WalletAppKit;
+import org.airwirej.params.RegTestParams;
+import org.airwirej.protocols.channels.PaymentChannelClient;
+import org.airwirej.protocols.channels.PaymentChannelClientConnection;
+import org.airwirej.protocols.channels.StoredPaymentChannelClientStates;
+import org.airwirej.protocols.channels.ValueOutOfRangeException;
+import org.airwirej.utils.BriefLogFormatter;
+import org.airwirej.utils.Threading;
+import org.airwirej.wallet.Wallet;
+import org.airwirej.wallet.WalletExtension;
 
 import com.google.common.collect.ImmutableList;
 import com.google.common.util.concurrent.FutureCallback;
@@ -46,7 +46,7 @@ import java.util.List;
 import java.util.concurrent.CountDownLatch;
 import java.util.concurrent.ExecutionException;
 
-import static org.coin2playj.core.Coin.CENT;
+import static org.airwirej.core.Coin.CENT;
 
 /**
  * Simple client that connects to the given host, opens a channel, and pays one cent.

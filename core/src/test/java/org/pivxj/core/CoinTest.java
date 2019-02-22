@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package org.coin2playj.core;
+package org.airwirej.core;
 
-import static org.coin2playj.core.Coin.*;
-import static org.coin2playj.core.NetworkParameters.MAX_MONEY;
+import static org.airwirej.core.Coin.*;
+import static org.airwirej.core.NetworkParameters.MAX_MONEY;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertTrue;

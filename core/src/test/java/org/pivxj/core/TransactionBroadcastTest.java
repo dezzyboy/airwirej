@@ -15,14 +15,14 @@
  * limitations under the License.
  */
 
-package org.coin2playj.core;
+package org.airwirej.core;
 
 import com.google.common.util.concurrent.*;
-import org.coin2playj.core.listeners.TransactionConfidenceEventListener;
-import org.coin2playj.testing.*;
-import org.coin2playj.utils.*;
-import org.coin2playj.wallet.SendRequest;
-import org.coin2playj.wallet.Wallet;
+import org.airwirej.core.listeners.TransactionConfidenceEventListener;
+import org.airwirej.testing.*;
+import org.airwirej.utils.*;
+import org.airwirej.wallet.SendRequest;
+import org.airwirej.wallet.Wallet;
 import org.junit.*;
 import org.junit.runner.*;
 import org.junit.runners.*;
@@ -31,7 +31,7 @@ import java.util.*;
 import java.util.concurrent.*;
 
 import static com.google.common.base.Preconditions.*;
-import static org.coin2playj.core.Coin.*;
+import static org.airwirej.core.Coin.*;
 import static org.junit.Assert.*;
 
 @RunWith(value = Parameterized.class)

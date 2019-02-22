@@ -16,12 +16,12 @@ package wallettemplate;
 
 import com.google.common.util.concurrent.*;
 import javafx.scene.input.*;
-import org.coin2playj.core.NetworkParameters;
-import org.coin2playj.kits.WalletAppKit;
-import org.coin2playj.params.*;
-import org.coin2playj.utils.BriefLogFormatter;
-import org.coin2playj.utils.Threading;
-import org.coin2playj.wallet.DeterministicSeed;
+import org.airwirej.core.NetworkParameters;
+import org.airwirej.kits.WalletAppKit;
+import org.airwirej.params.*;
+import org.airwirej.utils.BriefLogFormatter;
+import org.airwirej.utils.Threading;
+import org.airwirej.wallet.DeterministicSeed;
 import javafx.application.Application;
 import javafx.application.Platform;
 import javafx.fxml.FXMLLoader;
@@ -98,7 +98,7 @@ public class Main extends Application {
 
         // Make log output concise.
         BriefLogFormatter.init();
-        // Tell coin2playj to run event handlers on the JavaFX UI thread. This keeps things simple and means
+        // Tell airwirej to run event handlers on the JavaFX UI thread. This keeps things simple and means
         // we cannot forget to switch threads when adding event handlers. Unfortunately, the DownloadListener
         // we give to the app kit is currently an exception and runs on a library thread. It'll get fixed in
         // a future version.

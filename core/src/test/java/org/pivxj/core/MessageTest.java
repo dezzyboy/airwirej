@@ -15,9 +15,9 @@
  * limitations under the License.
  */
 
-package org.coin2playj.core;
+package org.airwirej.core;
 
-import org.coin2playj.params.UnitTestParams;
+import org.airwirej.params.UnitTestParams;
 import org.junit.Test;
 
 public class MessageTest {

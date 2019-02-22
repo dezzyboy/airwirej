@@ -24,7 +24,7 @@
 
 package paymentchannels;
 
-option java_package = "org.coin2playj.protocols.channels";
+option java_package = "org.airwirej.protocols.channels";
 option java_outer_classname = "ServerState";
 
 

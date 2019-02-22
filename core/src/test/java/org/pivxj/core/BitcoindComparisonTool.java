@@ -15,16 +15,16 @@
  * limitations under the License.
  */
 
-package org.coin2playj.core;
+package org.airwirej.core;
 
 import com.google.common.base.*;
 import com.google.common.collect.*;
 import com.google.common.util.concurrent.*;
-import org.coin2playj.core.listeners.*;
-import org.coin2playj.net.*;
-import org.coin2playj.params.*;
-import org.coin2playj.store.*;
-import org.coin2playj.utils.*;
+import org.airwirej.core.listeners.*;
+import org.airwirej.net.*;
+import org.airwirej.params.*;
+import org.airwirej.store.*;
+import org.airwirej.utils.*;
 import org.slf4j.*;
 
 import java.io.*;
@@ -302,7 +302,7 @@ public class BitcoindComparisonTool {
                 bitcoind.ping().get();
                 if (!chain.getChainHead().getHeader().getHash().equals(bitcoindChainHead)) {
                     rulesSinceFirstFail++;
-                    log.error("ERROR: bitcoind and coin2playj acceptance differs on block \"" + block.ruleName + "\"");
+                    log.error("ERROR: bitcoind and airwirej acceptance differs on block \"" + block.ruleName + "\"");
                 }
                 if (block.sendOnce)
                     preloadedBlocks.remove(nextBlock.getHash());

@@ -2,8 +2,8 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
-  <groupId>org.coin2playj</groupId>
-  <artifactId>coin2playj-parent</artifactId>
+  <groupId>org.airwirej</groupId>
+  <artifactId>airwirej-parent</artifactId>
   <version>0.14.3-12.1</version>
   <packaging>pom</packaging>
 
@@ -27,8 +27,8 @@
     <url>scm:git:https://github.com/bitcoinj/darkcoinj</url>
   </scm>
 
-  <name>coin2playj Parent</name>
-  <description>Provides the common configuration for the coin2playj modules</description>
+  <name>airwirej Parent</name>
+  <description>Provides the common configuration for the airwirej modules</description>
   <url>http://dash.org/dashj/</url>
 
   <licenses>

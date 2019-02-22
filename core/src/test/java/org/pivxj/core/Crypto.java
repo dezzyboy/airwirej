@@ -1,4 +1,4 @@
-package org.coin2playj.core;
+package org.airwirej.core;
 
 import com.google.common.base.Charsets;
 import com.google.common.io.BaseEncoding;

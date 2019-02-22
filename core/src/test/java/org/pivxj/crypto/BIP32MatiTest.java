@@ -1,8 +1,8 @@
-package org.coin2playj.crypto;
+package org.airwirej.crypto;
 
-import org.coin2playj.core.Address;
-import org.coin2playj.params.MainNetParams;
-import org.coin2playj.wallet.DeterministicKeyChain;
+import org.airwirej.core.Address;
+import org.airwirej.params.MainNetParams;
+import org.airwirej.wallet.DeterministicKeyChain;
 import org.junit.Test;
 
 import java.security.SecureRandom;

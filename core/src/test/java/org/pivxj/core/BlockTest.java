@@ -15,18 +15,18 @@
  * limitations under the License.
  */
 
-package org.coin2playj.core;
+package org.airwirej.core;
 
 import com.google.common.io.ByteStreams;
 
-import org.coin2playj.core.AbstractBlockChain.NewBlockType;
-import org.coin2playj.params.MainNetParams;
-import org.coin2playj.params.TestNet2Params;
-import org.coin2playj.params.TestNet3Params;
-import org.coin2playj.params.UnitTestParams;
-import org.coin2playj.script.ScriptOpCodes;
-import org.coin2playj.wallet.Wallet;
-import org.coin2playj.wallet.Wallet.BalanceType;
+import org.airwirej.core.AbstractBlockChain.NewBlockType;
+import org.airwirej.params.MainNetParams;
+import org.airwirej.params.TestNet2Params;
+import org.airwirej.params.TestNet3Params;
+import org.airwirej.params.UnitTestParams;
+import org.airwirej.script.ScriptOpCodes;
+import org.airwirej.wallet.Wallet;
+import org.airwirej.wallet.Wallet.BalanceType;
 import org.junit.Before;
 import org.junit.Test;
 
@@ -35,7 +35,7 @@ import java.util.Arrays;
 import java.util.EnumSet;
 import java.util.List;
 
-import static org.coin2playj.core.Utils.HEX;
+import static org.airwirej.core.Utils.HEX;
 import static org.junit.Assert.*;
 
 public class BlockTest {

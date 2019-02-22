@@ -15,9 +15,9 @@
  * limitations under the License.
  */
 
-package org.coin2playj.crypto;
+package org.airwirej.crypto;
 
-import org.coin2playj.core.Utils;
+import org.airwirej.core.Utils;
 import com.google.common.collect.Lists;
 import org.junit.Before;
 import org.junit.Test;
@@ -27,7 +27,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-import static org.coin2playj.core.Utils.HEX;
+import static org.airwirej.core.Utils.HEX;
 import static org.junit.Assert.assertEquals;
 
 public class MnemonicCodeTest {

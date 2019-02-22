@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-package org.coin2playj.core;
+package org.airwirej.core;
 
-import org.coin2playj.store.BlockStoreException;
-import org.coin2playj.store.FullPrunedBlockStore;
-import org.coin2playj.store.MySQLFullPrunedBlockStore;
+import org.airwirej.store.BlockStoreException;
+import org.airwirej.store.FullPrunedBlockStore;
+import org.airwirej.store.MySQLFullPrunedBlockStore;
 import org.junit.After;
 import org.junit.Ignore;
 
@@ -36,7 +36,7 @@ public class MySQLFullPrunedBlockChainTest extends AbstractFullPrunedBlockChainT
     // Replace these with your mysql location/credentials and remove @Ignore to test
     private static final String DB_HOSTNAME = "localhost";
     private static final String DB_NAME = "bitcoinj_test";
-    private static final String DB_USERNAME = "coin2playj";
+    private static final String DB_USERNAME = "airwirej";
     private static final String DB_PASSWORD = "password";
 
     @Override

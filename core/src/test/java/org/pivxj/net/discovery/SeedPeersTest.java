@@ -15,9 +15,9 @@
  * limitations under the License.
  */
 
-package org.coin2playj.net.discovery;
+package org.airwirej.net.discovery;
 
-import org.coin2playj.params.MainNetParams;
+import org.airwirej.params.MainNetParams;
 import org.junit.Test;
 
 import java.net.InetSocketAddress;

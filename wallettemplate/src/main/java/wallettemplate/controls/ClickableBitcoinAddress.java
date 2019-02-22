@@ -14,8 +14,8 @@
 
 package wallettemplate.controls;
 
-import org.coin2playj.core.Address;
-import org.coin2playj.uri.SendURI;
+import org.airwirej.core.Address;
+import org.airwirej.uri.SendURI;
 import de.jensd.fx.fontawesome.AwesomeDude;
 import de.jensd.fx.fontawesome.AwesomeIcon;
 import javafx.beans.binding.StringExpression;

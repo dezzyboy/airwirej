@@ -1,10 +1,10 @@
 package org.darkcoinj;
 
 import com.google.common.base.Charsets;
-import org.coin2playj.core.*;
-import org.coin2playj.crypto.KeyCrypterException;
-import org.coin2playj.script.Script;
-import org.coin2playj.script.ScriptBuilder;
+import org.airwirej.core.*;
+import org.airwirej.crypto.KeyCrypterException;
+import org.airwirej.script.Script;
+import org.airwirej.script.ScriptBuilder;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.spongycastle.util.encoders.Base64;

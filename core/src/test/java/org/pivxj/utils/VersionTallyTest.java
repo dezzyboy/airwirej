@@ -14,17 +14,17 @@
  * limitations under the License.
  */
 
-package org.coin2playj.utils;
+package org.airwirej.utils;
 
-import org.coin2playj.core.BlockChain;
-import org.coin2playj.core.Context;
-import org.coin2playj.core.NetworkParameters;
-import org.coin2playj.core.StoredBlock;
-import org.coin2playj.params.UnitTestParams;
-import org.coin2playj.store.BlockStore;
-import org.coin2playj.store.BlockStoreException;
-import org.coin2playj.store.MemoryBlockStore;
-import org.coin2playj.testing.FakeTxBuilder;
+import org.airwirej.core.BlockChain;
+import org.airwirej.core.Context;
+import org.airwirej.core.NetworkParameters;
+import org.airwirej.core.StoredBlock;
+import org.airwirej.params.UnitTestParams;
+import org.airwirej.store.BlockStore;
+import org.airwirej.store.BlockStoreException;
+import org.airwirej.store.MemoryBlockStore;
+import org.airwirej.testing.FakeTxBuilder;
 import org.junit.Test;
 import static org.junit.Assert.*;
 import org.junit.Before;

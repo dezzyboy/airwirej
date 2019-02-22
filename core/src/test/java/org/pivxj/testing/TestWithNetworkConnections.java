@@ -15,18 +15,18 @@
  * limitations under the License.
  */
 
-package org.coin2playj.testing;
+package org.airwirej.testing;
 
-import org.coin2playj.core.listeners.PeerDisconnectedEventListener;
-import org.coin2playj.core.listeners.PreMessageReceivedEventListener;
-import org.coin2playj.core.*;
-import org.coin2playj.net.*;
-import org.coin2playj.params.UnitTestParams;
-import org.coin2playj.store.BlockStore;
-import org.coin2playj.store.MemoryBlockStore;
-import org.coin2playj.utils.BriefLogFormatter;
-import org.coin2playj.utils.Threading;
-import org.coin2playj.wallet.Wallet;
+import org.airwirej.core.listeners.PeerDisconnectedEventListener;
+import org.airwirej.core.listeners.PreMessageReceivedEventListener;
+import org.airwirej.core.*;
+import org.airwirej.net.*;
+import org.airwirej.params.UnitTestParams;
+import org.airwirej.store.BlockStore;
+import org.airwirej.store.MemoryBlockStore;
+import org.airwirej.utils.BriefLogFormatter;
+import org.airwirej.utils.Threading;
+import org.airwirej.wallet.Wallet;
 
 import com.google.common.util.concurrent.SettableFuture;
 

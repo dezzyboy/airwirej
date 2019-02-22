@@ -15,14 +15,14 @@
  * limitations under the License.
  */
 
-package org.coin2playj.crypto;
+package org.airwirej.crypto;
 
-import org.coin2playj.core.Utils;
-import org.coin2playj.utils.BriefLogFormatter;
+import org.airwirej.core.Utils;
+import org.airwirej.utils.BriefLogFormatter;
 import com.google.protobuf.ByteString;
 
-import org.coin2playj.wallet.Protos;
-import org.coin2playj.wallet.Protos.ScryptParameters;
+import org.airwirej.wallet.Protos;
+import org.airwirej.wallet.Protos.ScryptParameters;
 import org.junit.Before;
 import org.junit.Test;
 import org.slf4j.Logger;

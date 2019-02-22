@@ -14,14 +14,14 @@
  * limitations under the License.
  */
 
-package org.coin2playj.examples;
+package org.airwirej.examples;
 
 import java.net.InetAddress;
-import org.coin2playj.core.FullPrunedBlockChain;
-import org.coin2playj.core.PeerGroup;
-import org.coin2playj.params.MainNetParams;
-import org.coin2playj.store.FullPrunedBlockStore;
-import org.coin2playj.store.LevelDBFullPrunedBlockStore;
+import org.airwirej.core.FullPrunedBlockChain;
+import org.airwirej.core.PeerGroup;
+import org.airwirej.params.MainNetParams;
+import org.airwirej.store.FullPrunedBlockStore;
+import org.airwirej.store.LevelDBFullPrunedBlockStore;
 
 public class LevelDB {
     public static void main(String[] args) throws Exception {

@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-package org.coin2playj.testing;
+package org.airwirej.testing;
 
-import org.coin2playj.core.*;
-import org.coin2playj.utils.Threading;
-import org.coin2playj.wallet.Wallet;
+import org.airwirej.core.*;
+import org.airwirej.utils.Threading;
+import org.airwirej.wallet.Wallet;
 
 import com.google.common.util.concurrent.FutureCallback;
 import com.google.common.util.concurrent.Futures;

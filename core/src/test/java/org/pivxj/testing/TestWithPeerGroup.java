@@ -14,14 +14,14 @@
  * limitations under the License.
  */
 
-package org.coin2playj.testing;
+package org.airwirej.testing;
 
 import com.google.common.base.*;
 import com.google.common.util.concurrent.*;
-import org.coin2playj.core.*;
-import org.coin2playj.net.*;
-import org.coin2playj.store.*;
-import org.coin2playj.utils.*;
+import org.airwirej.core.*;
+import org.airwirej.net.*;
+import org.airwirej.store.*;
+import org.airwirej.utils.*;
 
 import java.net.*;
 import java.util.concurrent.*;

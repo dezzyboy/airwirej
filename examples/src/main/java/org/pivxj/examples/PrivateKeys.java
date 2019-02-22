@@ -15,12 +15,12 @@
  * limitations under the License.
  */
 
-package org.coin2playj.examples;
+package org.airwirej.examples;
 
-import org.coin2playj.core.*;
-import org.coin2playj.params.MainNetParams;
-import org.coin2playj.store.MemoryBlockStore;
-import org.coin2playj.wallet.Wallet;
+import org.airwirej.core.*;
+import org.airwirej.params.MainNetParams;
+import org.airwirej.store.MemoryBlockStore;
+import org.airwirej.wallet.Wallet;
 
 import java.math.BigInteger;
 import java.net.InetAddress;

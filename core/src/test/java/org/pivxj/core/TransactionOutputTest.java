@@ -12,14 +12,14 @@
  * limitations under the License.
  */
 
-package org.coin2playj.core;
+package org.airwirej.core;
 
 import com.google.common.collect.ImmutableList;
-import org.coin2playj.params.MainNetParams;
-import org.coin2playj.script.Script;
-import org.coin2playj.script.ScriptBuilder;
-import org.coin2playj.testing.TestWithWallet;
-import org.coin2playj.wallet.SendRequest;
+import org.airwirej.params.MainNetParams;
+import org.airwirej.script.Script;
+import org.airwirej.script.ScriptBuilder;
+import org.airwirej.testing.TestWithWallet;
+import org.airwirej.wallet.SendRequest;
 import org.hamcrest.CoreMatchers;
 import org.junit.After;
 import org.junit.Before;

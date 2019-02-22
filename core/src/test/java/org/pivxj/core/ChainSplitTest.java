@@ -15,20 +15,20 @@
  * limitations under the License.
  */
 
-package org.coin2playj.core;
+package org.airwirej.core;
 
-import org.coin2playj.core.listeners.TransactionConfidenceEventListener;
-import org.coin2playj.core.TransactionConfidence.ConfidenceType;
-import org.coin2playj.params.UnitTestParams;
-import org.coin2playj.store.MemoryBlockStore;
-import org.coin2playj.testing.FakeTxBuilder;
-import org.coin2playj.utils.BriefLogFormatter;
-import org.coin2playj.utils.Threading;
-import org.coin2playj.wallet.Wallet;
-import org.coin2playj.wallet.WalletTransaction;
-import org.coin2playj.wallet.listeners.WalletChangeEventListener;
-import org.coin2playj.wallet.listeners.WalletCoinsReceivedEventListener;
-import org.coin2playj.wallet.listeners.WalletReorganizeEventListener;
+import org.airwirej.core.listeners.TransactionConfidenceEventListener;
+import org.airwirej.core.TransactionConfidence.ConfidenceType;
+import org.airwirej.params.UnitTestParams;
+import org.airwirej.store.MemoryBlockStore;
+import org.airwirej.testing.FakeTxBuilder;
+import org.airwirej.utils.BriefLogFormatter;
+import org.airwirej.utils.Threading;
+import org.airwirej.wallet.Wallet;
+import org.airwirej.wallet.WalletTransaction;
+import org.airwirej.wallet.listeners.WalletChangeEventListener;
+import org.airwirej.wallet.listeners.WalletCoinsReceivedEventListener;
+import org.airwirej.wallet.listeners.WalletReorganizeEventListener;
 import org.junit.Before;
 import org.junit.Test;
 import org.slf4j.Logger;
@@ -42,7 +42,7 @@ import java.util.ArrayList;
 import java.util.concurrent.atomic.AtomicBoolean;
 import java.util.concurrent.atomic.AtomicInteger;
 
-import static org.coin2playj.core.Coin.*;
+import static org.airwirej.core.Coin.*;
 import static com.google.common.base.Preconditions.checkNotNull;
 import static org.junit.Assert.*;
 

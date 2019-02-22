@@ -14,13 +14,13 @@
  * limitations under the License.
  */
 
-package org.coin2playj.store;
+package org.airwirej.store;
 
-import org.coin2playj.core.Address;
-import org.coin2playj.core.ECKey;
-import org.coin2playj.core.NetworkParameters;
-import org.coin2playj.core.StoredBlock;
-import org.coin2playj.params.UnitTestParams;
+import org.airwirej.core.Address;
+import org.airwirej.core.ECKey;
+import org.airwirej.core.NetworkParameters;
+import org.airwirej.core.StoredBlock;
+import org.airwirej.params.UnitTestParams;
 import org.junit.Test;
 
 import java.io.File;

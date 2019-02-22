@@ -15,9 +15,9 @@
  * limitations under the License.
  */
 
-package org.coin2playj.core;
+package org.airwirej.core;
 
-import org.coin2playj.params.MainNetParams;
+import org.airwirej.params.MainNetParams;
 import org.junit.Test;
 
 import java.io.ByteArrayOutputStream;
@@ -26,7 +26,7 @@ import java.nio.BufferUnderflowException;
 import java.nio.ByteBuffer;
 import java.util.Arrays;
 
-import static org.coin2playj.core.Utils.HEX;
+import static org.airwirej.core.Utils.HEX;
 import static org.junit.Assert.*;
 
 public class BitcoinSerializerTest {

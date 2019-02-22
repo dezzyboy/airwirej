@@ -14,19 +14,19 @@
  * limitations under the License.
  */
 
-package org.coin2playj.testing;
+package org.airwirej.testing;
 
-import org.coin2playj.core.*;
-import org.coin2playj.params.UnitTestParams;
-import org.coin2playj.store.BlockStore;
-import org.coin2playj.store.MemoryBlockStore;
-import org.coin2playj.utils.BriefLogFormatter;
-import org.coin2playj.wallet.Wallet;
+import org.airwirej.core.*;
+import org.airwirej.params.UnitTestParams;
+import org.airwirej.store.BlockStore;
+import org.airwirej.store.MemoryBlockStore;
+import org.airwirej.utils.BriefLogFormatter;
+import org.airwirej.wallet.Wallet;
 
 import javax.annotation.Nullable;
 
-import static org.coin2playj.testing.FakeTxBuilder.createFakeBlock;
-import static org.coin2playj.testing.FakeTxBuilder.createFakeTx;
+import static org.airwirej.testing.FakeTxBuilder.createFakeBlock;
+import static org.airwirej.testing.FakeTxBuilder.createFakeTx;
 
 // TODO: This needs to be somewhat rewritten - the "sendMoneyToWallet" methods aren't sending via the block chain object
 

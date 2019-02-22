@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.coin2playj.core;
+package org.airwirej.core;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertNotSame;
@@ -25,8 +25,8 @@ import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
 
 import org.junit.Test;
-import org.coin2playj.params.MainNetParams;
-import org.coin2playj.params.TestNet3Params;
+import org.airwirej.params.MainNetParams;
+import org.airwirej.params.TestNet3Params;
 
 public class DumpedPrivateKeyTest {
 
