@@ -121,7 +121,7 @@ public class DeterministicKeyChain implements EncryptableKeyChain {
     //public static final ImmutableList<ChildNumber> BIP44_ACCOUNT_ZERO_PATH =
     //        ImmutableList.of(new ChildNumber(44, true), ChildNumber.ZERO_HARDENED, ChildNumber.ZERO_HARDENED);
 
-    // C2P BIP44
+    // WIRE BIP44
     public static final ChildNumber BIP44_MASTER_KEY = new ChildNumber(44, true);
     public static final ChildNumber SEND_PATH = new ChildNumber(119,true);
     public static final ImmutableList<ChildNumber> BIP44_ACCOUNT_ZERO_PATH =

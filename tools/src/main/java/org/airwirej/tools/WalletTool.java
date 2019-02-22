@@ -177,7 +177,7 @@ public class WalletTool {
         CURRENT_RECEIVE_ADDR,
         SYNC,
         RESET,
-        C2P,
+        WIRE,
         SEND_CLTVPAYMENTCHANNEL,
         SETTLE_CLTVPAYMENTCHANNEL,
         REFUND_CLTVPAYMENTCHANNEL,
@@ -356,7 +356,7 @@ public class WalletTool {
             case CURRENT_RECEIVE_ADDR: currentReceiveAddr(); break;
             case RESET: reset(); break;
             case SYNC: syncChain(); break;
-            case C2P:
+            case WIRE:
                 if (options.has(paymentRequestLocation) && options.has(outputFlag)) {
                     System.err.println("--payment-request and --output cannot be used together.");
                     return;

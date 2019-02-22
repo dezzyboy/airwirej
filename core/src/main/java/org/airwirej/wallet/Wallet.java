@@ -4915,7 +4915,7 @@ public class Wallet extends BaseTaggableObject
             if (needAtLeastReferenceFee && fees.compareTo(Transaction.REFERENCE_DEFAULT_MIN_TX_FEE) < 0)
                 fees = Transaction.REFERENCE_DEFAULT_MIN_TX_FEE;
 
-            //C2P instantSend
+            //WIRE instantSend
             if(req.useInstantSend) {
                 fees = Coin.valueOf(max(TransactionLockRequest.MIN_FEE.getValue(), TransactionLockRequest.MIN_FEE.multiply(lastCalculatedInputs).getValue()));
             }

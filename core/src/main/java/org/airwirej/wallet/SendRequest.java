@@ -265,6 +265,6 @@ public class SendRequest {
         return helper.toString();
     }
 
-    //C2P Specific
+    //WIRE Specific
     public boolean useInstantSend;
 }

@@ -847,7 +847,7 @@ public class Peer extends PeerSocketHandler {
             TransactionConfidence confidence = tx.getConfidence();
             confidence.setSource(TransactionConfidence.Source.NETWORK);
 
-            //C2P Specific
+            //WIRE Specific
             // todo furszy: commented dash instantSend for now.
             if (context.instantSend!=null)
                 context.instantSend.syncTransaction(tx, null);

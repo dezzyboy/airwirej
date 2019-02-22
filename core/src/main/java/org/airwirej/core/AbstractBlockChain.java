@@ -459,10 +459,10 @@ public abstract class AbstractBlockChain {
             // article here for more details: https://bitcoinj.github.io/security-model
             try {
                 block.verifyHeader();
-                System.out.println("New block previous hash: "+block.getPrevBlockHash());
+            //    System.out.println("New block previous hash: "+block.getPrevBlockHash());
                 storedPrev = getStoredBlockInCurrentScope(block.getPrevBlockHash());
                 if (storedPrev!=null) {
-                    System.out.println("New block, previous stored block from db: " + storedPrev.getHeader().getHashAsString());
+                 //   System.out.println("New block, previous stored block from db: " + storedPrev.getHeader().getHashAsString());
                     checkArgument(block.getPrevBlockHash().equals(storedPrev.getHeader().getHash()), "Database saving shit.. prev hash block: " + block.getPrevBlockHash() + ", db prev hash: " + storedPrev.getHeader().getHashAsString());
                 }
 
