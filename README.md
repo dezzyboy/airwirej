@@ -1,6 +1,6 @@
 ### Welcome to airwirej
 
-The airwirej library is a Java implementation of the PIVX protocol, which allows it to maintain a wallet and send/receive transactions without needing a local copy of PIVX Core. It comes with full documentation and some example apps showing how to use it.
+The airwirej library is a Java implementation of the AirWire protocol, which allows it to maintain a wallet and send/receive transactions without needing a local copy of AirWire Core. It comes with full documentation and some example apps showing how to use it.
 
 ### Technologies
 
