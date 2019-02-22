@@ -68,7 +68,7 @@ public class CoinDefinition {
     }
 
     public static int spendableCoinbaseDepth = 5; //main.h: static const int COINBASE_MATURITY
-    public static final long MAX_COINS = 2500000000;                 //main.h:  MAX_MONEY
+    public static final long MAX_COINS = 250000000;                 //main.h:  MAX_MONEY
     public static final long DEFAULT_TX_FEE = 10000;
 
     public static final long DEFAULT_MIN_TX_FEE = 10000;   // MIN_TX_FEE
